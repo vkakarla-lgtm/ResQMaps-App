@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0808C42BDDD4EC005F307F /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0808C32BDDD4EC005F307F /* weatherModel.swift */; };
+		4B0808C62BDE7632005F307F /* dmLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0808C52BDE7632005F307F /* dmLaunchScreen.storyboard */; };
+		4B3B5E542BDAFCDD001F6C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B5E532BDAFCDD001F6C2B /* Assets.xcassets */; };
+		4B3B5E572BDAFCDD001F6C2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B5E562BDAFCDD001F6C2B /* Preview Assets.xcassets */; };
+		4B3B5E612BDAFCDE001F6C2B /* Disaster_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E602BDAFCDE001F6C2B /* Disaster_ManagementTests.swift */; };
+		4B3B5E6B2BDAFCDE001F6C2B /* Disaster_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E6A2BDAFCDE001F6C2B /* Disaster_ManagementUITests.swift */; };
+		4B3B5E6D2BDAFCDE001F6C2B /* Disaster_ManagementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E6C2BDAFCDE001F6C2B /* Disaster_ManagementUITestsLaunchTests.swift */; };
+		4B3B5E7C2BDB03D2001F6C2B /* info.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B5E7A2BDB03D2001F6C2B /* info.json */; };
+		4B3B5E7D2BDB03D2001F6C2B /* disasterData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B5E7B2BDB03D2001F6C2B /* disasterData.json */; };
+		4B3B5E832BDB03E7001F6C2B /* Hazard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E7E2BDB03E7001F6C2B /* Hazard.swift */; };
+		4B3B5E842BDB03E7001F6C2B /* Disaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E7F2BDB03E7001F6C2B /* Disaster.swift */; };
+		4B3B5E852BDB03E7001F6C2B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E802BDB03E7001F6C2B /* ModelData.swift */; };
+		4B3B5E862BDB03E7001F6C2B /* OverlayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E812BDB03E7001F6C2B /* OverlayPoint.swift */; };
+		4B3B5E882BDB0409001F6C2B /* DisasterManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E872BDB0409001F6C2B /* DisasterManagerApp.swift */; };
+		4B3B5E962BDB0455001F6C2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E8B2BDB0455001F6C2B /* ContentView.swift */; };
+		4B3B5E972BDB0455001F6C2B /* InfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E8C2BDB0455001F6C2B /* InfoDetail.swift */; };
+		4B3B5E982BDB0455001F6C2B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E8D2BDB0455001F6C2B /* InfoView.swift */; };
+		4B3B5E992BDB0455001F6C2B /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E8E2BDB0455001F6C2B /* LandingPage.swift */; };
+		4B3B5E9A2BDB0455001F6C2B /* DisasterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E8F2BDB0455001F6C2B /* DisasterDetail.swift */; };
+		4B3B5E9B2BDB0455001F6C2B /* DisasterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E902BDB0455001F6C2B /* DisasterList.swift */; };
+		4B3B5E9C2BDB0455001F6C2B /* DisasterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E912BDB0455001F6C2B /* DisasterRow.swift */; };
+		4B3B5E9D2BDB0455001F6C2B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B5E922BDB0455001F6C2B /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3B5E5D2BDAFCDE001F6C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3B5E422BDAFCD9001F6C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3B5E492BDAFCD9001F6C2B;
+			remoteInfo = "Disaster Management";
+		};
+		4B3B5E672BDAFCDE001F6C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3B5E422BDAFCD9001F6C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3B5E492BDAFCD9001F6C2B;
+			remoteInfo = "Disaster Management";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B0808C32BDDD4EC005F307F /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
+		4B0808C52BDE7632005F307F /* dmLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = dmLaunchScreen.storyboard; path = ../dmLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B0808C72BDE7775005F307F /* Disaster-Management-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Disaster-Management-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4B3B5E4A2BDAFCD9001F6C2B /* Disaster Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disaster Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3B5E532BDAFCDD001F6C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3B5E562BDAFCDD001F6C2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B3B5E5C2BDAFCDD001F6C2B /* Disaster ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disaster ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3B5E602BDAFCDE001F6C2B /* Disaster_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disaster_ManagementTests.swift; sourceTree = "<group>"; };
+		4B3B5E662BDAFCDE001F6C2B /* Disaster ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disaster ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3B5E6A2BDAFCDE001F6C2B /* Disaster_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disaster_ManagementUITests.swift; sourceTree = "<group>"; };
+		4B3B5E6C2BDAFCDE001F6C2B /* Disaster_ManagementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disaster_ManagementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B3B5E7A2BDB03D2001F6C2B /* info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = info.json; sourceTree = "<group>"; };
+		4B3B5E7B2BDB03D2001F6C2B /* disasterData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = disasterData.json; sourceTree = "<group>"; };
+		4B3B5E7E2BDB03E7001F6C2B /* Hazard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hazard.swift; sourceTree = "<group>"; };
+		4B3B5E7F2BDB03E7001F6C2B /* Disaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disaster.swift; sourceTree = "<group>"; };
+		4B3B5E802BDB03E7001F6C2B /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		4B3B5E812BDB03E7001F6C2B /* OverlayPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPoint.swift; sourceTree = "<group>"; };
+		4B3B5E872BDB0409001F6C2B /* DisasterManagerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisasterManagerApp.swift; sourceTree = "<group>"; };
+		4B3B5E8B2BDB0455001F6C2B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B3B5E8C2BDB0455001F6C2B /* InfoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetail.swift; sourceTree = "<group>"; };
+		4B3B5E8D2BDB0455001F6C2B /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		4B3B5E8E2BDB0455001F6C2B /* LandingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		4B3B5E8F2BDB0455001F6C2B /* DisasterDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisasterDetail.swift; sourceTree = "<group>"; };
+		4B3B5E902BDB0455001F6C2B /* DisasterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisasterList.swift; sourceTree = "<group>"; };
+		4B3B5E912BDB0455001F6C2B /* DisasterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisasterRow.swift; sourceTree = "<group>"; };
+		4B3B5E922BDB0455001F6C2B /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3B5E472BDAFCD9001F6C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3B5E592BDAFCDD001F6C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3B5E632BDAFCDE001F6C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3B5E412BDAFCD9001F6C2B = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E4C2BDAFCD9001F6C2B /* Disaster Management */,
+				4B3B5E5F2BDAFCDE001F6C2B /* Disaster ManagementTests */,
+				4B3B5E692BDAFCDE001F6C2B /* Disaster ManagementUITests */,
+				4B3B5E4B2BDAFCD9001F6C2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3B5E4B2BDAFCD9001F6C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E4A2BDAFCD9001F6C2B /* Disaster Management.app */,
+				4B3B5E5C2BDAFCDD001F6C2B /* Disaster ManagementTests.xctest */,
+				4B3B5E662BDAFCDE001F6C2B /* Disaster ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3B5E4C2BDAFCD9001F6C2B /* Disaster Management */ = {
+			isa = PBXGroup;
+			children = (
+				4B0808C52BDE7632005F307F /* dmLaunchScreen.storyboard */,
+				4B0808C72BDE7775005F307F /* Disaster-Management-Info.plist */,
+				4B3B5E872BDB0409001F6C2B /* DisasterManagerApp.swift */,
+				4B3B5E932BDB0455001F6C2B /* Views */,
+				4B3B5E822BDB03E7001F6C2B /* Model */,
+				4B3B5E792BDB03B9001F6C2B /* Resources */,
+				4B3B5E532BDAFCDD001F6C2B /* Assets.xcassets */,
+				4B3B5E552BDAFCDD001F6C2B /* Preview Content */,
+			);
+			path = "Disaster Management";
+			sourceTree = "<group>";
+		};
+		4B3B5E552BDAFCDD001F6C2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E562BDAFCDD001F6C2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B3B5E5F2BDAFCDE001F6C2B /* Disaster ManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E602BDAFCDE001F6C2B /* Disaster_ManagementTests.swift */,
+			);
+			path = "Disaster ManagementTests";
+			sourceTree = "<group>";
+		};
+		4B3B5E692BDAFCDE001F6C2B /* Disaster ManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E6A2BDAFCDE001F6C2B /* Disaster_ManagementUITests.swift */,
+				4B3B5E6C2BDAFCDE001F6C2B /* Disaster_ManagementUITestsLaunchTests.swift */,
+			);
+			path = "Disaster ManagementUITests";
+			sourceTree = "<group>";
+		};
+		4B3B5E792BDB03B9001F6C2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E7A2BDB03D2001F6C2B /* info.json */,
+				4B3B5E7B2BDB03D2001F6C2B /* disasterData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B3B5E822BDB03E7001F6C2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E7E2BDB03E7001F6C2B /* Hazard.swift */,
+				4B3B5E7F2BDB03E7001F6C2B /* Disaster.swift */,
+				4B3B5E802BDB03E7001F6C2B /* ModelData.swift */,
+				4B3B5E812BDB03E7001F6C2B /* OverlayPoint.swift */,
+				4B0808C32BDDD4EC005F307F /* weatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B3B5E932BDB0455001F6C2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B5E8B2BDB0455001F6C2B /* ContentView.swift */,
+				4B3B5E8C2BDB0455001F6C2B /* InfoDetail.swift */,
+				4B3B5E8D2BDB0455001F6C2B /* InfoView.swift */,
+				4B3B5E8E2BDB0455001F6C2B /* LandingPage.swift */,
+				4B3B5E8F2BDB0455001F6C2B /* DisasterDetail.swift */,
+				4B3B5E902BDB0455001F6C2B /* DisasterList.swift */,
+				4B3B5E912BDB0455001F6C2B /* DisasterRow.swift */,
+				4B3B5E922BDB0455001F6C2B /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3B5E492BDAFCD9001F6C2B /* Disaster Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3B5E702BDAFCDE001F6C2B /* Build configuration list for PBXNativeTarget "Disaster Management" */;
+			buildPhases = (
+				4B3B5E462BDAFCD9001F6C2B /* Sources */,
+				4B3B5E472BDAFCD9001F6C2B /* Frameworks */,
+				4B3B5E482BDAFCD9001F6C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disaster Management";
+			productName = "Disaster Management";
+			productReference = 4B3B5E4A2BDAFCD9001F6C2B /* Disaster Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3B5E5B2BDAFCDD001F6C2B /* Disaster ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3B5E732BDAFCDE001F6C2B /* Build configuration list for PBXNativeTarget "Disaster ManagementTests" */;
+			buildPhases = (
+				4B3B5E582BDAFCDD001F6C2B /* Sources */,
+				4B3B5E592BDAFCDD001F6C2B /* Frameworks */,
+				4B3B5E5A2BDAFCDD001F6C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3B5E5E2BDAFCDE001F6C2B /* PBXTargetDependency */,
+			);
+			name = "Disaster ManagementTests";
+			productName = "Disaster ManagementTests";
+			productReference = 4B3B5E5C2BDAFCDD001F6C2B /* Disaster ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B3B5E652BDAFCDE001F6C2B /* Disaster ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3B5E762BDAFCDE001F6C2B /* Build configuration list for PBXNativeTarget "Disaster ManagementUITests" */;
+			buildPhases = (
+				4B3B5E622BDAFCDE001F6C2B /* Sources */,
+				4B3B5E632BDAFCDE001F6C2B /* Frameworks */,
+				4B3B5E642BDAFCDE001F6C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3B5E682BDAFCDE001F6C2B /* PBXTargetDependency */,
+			);
+			name = "Disaster ManagementUITests";
+			productName = "Disaster ManagementUITests";
+			productReference = 4B3B5E662BDAFCDE001F6C2B /* Disaster ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3B5E422BDAFCD9001F6C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4B3B5E492BDAFCD9001F6C2B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4B3B5E5B2BDAFCDD001F6C2B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4B3B5E492BDAFCD9001F6C2B;
+					};
+					4B3B5E652BDAFCDE001F6C2B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4B3B5E492BDAFCD9001F6C2B;
+					};
+				};
+			};
+			buildConfigurationList = 4B3B5E452BDAFCD9001F6C2B /* Build configuration list for PBXProject "Disaster Management" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3B5E412BDAFCD9001F6C2B;
+			productRefGroup = 4B3B5E4B2BDAFCD9001F6C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3B5E492BDAFCD9001F6C2B /* Disaster Management */,
+				4B3B5E5B2BDAFCDD001F6C2B /* Disaster ManagementTests */,
+				4B3B5E652BDAFCDE001F6C2B /* Disaster ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3B5E482BDAFCD9001F6C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3B5E572BDAFCDD001F6C2B /* Preview Assets.xcassets in Resources */,
+				4B3B5E7D2BDB03D2001F6C2B /* disasterData.json in Resources */,
+				4B3B5E542BDAFCDD001F6C2B /* Assets.xcassets in Resources */,
+				4B3B5E7C2BDB03D2001F6C2B /* info.json in Resources */,
+				4B0808C62BDE7632005F307F /* dmLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3B5E5A2BDAFCDD001F6C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3B5E642BDAFCDE001F6C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3B5E462BDAFCD9001F6C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3B5E862BDB03E7001F6C2B /* OverlayPoint.swift in Sources */,
+				4B3B5E992BDB0455001F6C2B /* LandingPage.swift in Sources */,
+				4B3B5E832BDB03E7001F6C2B /* Hazard.swift in Sources */,
+				4B3B5E9B2BDB0455001F6C2B /* DisasterList.swift in Sources */,
+				4B3B5E882BDB0409001F6C2B /* DisasterManagerApp.swift in Sources */,
+				4B3B5E982BDB0455001F6C2B /* InfoView.swift in Sources */,
+				4B3B5E9A2BDB0455001F6C2B /* DisasterDetail.swift in Sources */,
+				4B3B5E9D2BDB0455001F6C2B /* MapView.swift in Sources */,
+				4B3B5E962BDB0455001F6C2B /* ContentView.swift in Sources */,
+				4B3B5E842BDB03E7001F6C2B /* Disaster.swift in Sources */,
+				4B3B5E852BDB03E7001F6C2B /* ModelData.swift in Sources */,
+				4B3B5E9C2BDB0455001F6C2B /* DisasterRow.swift in Sources */,
+				4B0808C42BDDD4EC005F307F /* weatherModel.swift in Sources */,
+				4B3B5E972BDB0455001F6C2B /* InfoDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3B5E582BDAFCDD001F6C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3B5E612BDAFCDE001F6C2B /* Disaster_ManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3B5E622BDAFCDE001F6C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3B5E6D2BDAFCDE001F6C2B /* Disaster_ManagementUITestsLaunchTests.swift in Sources */,
+				4B3B5E6B2BDAFCDE001F6C2B /* Disaster_ManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3B5E5E2BDAFCDE001F6C2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3B5E492BDAFCD9001F6C2B /* Disaster Management */;
+			targetProxy = 4B3B5E5D2BDAFCDE001F6C2B /* PBXContainerItemProxy */;
+		};
+		4B3B5E682BDAFCDE001F6C2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3B5E492BDAFCD9001F6C2B /* Disaster Management */;
+			targetProxy = 4B3B5E672BDAFCDE001F6C2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B3B5E6E2BDAFCDE001F6C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B3B5E6F2BDAFCDE001F6C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3B5E712BDAFCDE001F6C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disaster Management/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Disaster-Management-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = dmLaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arka-Dynamics.Disaster-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3B5E722BDAFCDE001F6C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disaster Management/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Disaster-Management-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = dmLaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arka-Dynamics.Disaster-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B3B5E742BDAFCDE001F6C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arka-Dynamics.Disaster-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disaster Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disaster Management";
+			};
+			name = Debug;
+		};
+		4B3B5E752BDAFCDE001F6C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arka-Dynamics.Disaster-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disaster Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disaster Management";
+			};
+			name = Release;
+		};
+		4B3B5E772BDAFCDE001F6C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arka-Dynamics.Disaster-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disaster Management";
+			};
+			name = Debug;
+		};
+		4B3B5E782BDAFCDE001F6C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arka-Dynamics.Disaster-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disaster Management";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3B5E452BDAFCD9001F6C2B /* Build configuration list for PBXProject "Disaster Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3B5E6E2BDAFCDE001F6C2B /* Debug */,
+				4B3B5E6F2BDAFCDE001F6C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3B5E702BDAFCDE001F6C2B /* Build configuration list for PBXNativeTarget "Disaster Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3B5E712BDAFCDE001F6C2B /* Debug */,
+				4B3B5E722BDAFCDE001F6C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3B5E732BDAFCDE001F6C2B /* Build configuration list for PBXNativeTarget "Disaster ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3B5E742BDAFCDE001F6C2B /* Debug */,
+				4B3B5E752BDAFCDE001F6C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3B5E762BDAFCDE001F6C2B /* Build configuration list for PBXNativeTarget "Disaster ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3B5E772BDAFCDE001F6C2B /* Debug */,
+				4B3B5E782BDAFCDE001F6C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3B5E422BDAFCD9001F6C2B /* Project object */;
+}

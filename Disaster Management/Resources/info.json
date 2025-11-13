@@ -1,0 +1,24 @@
+[
+    {
+        "id":1001,
+        "imageName":"hurricane",
+        "info": {
+            "safety": "Be Prepared for a Hurricane : Hurricanes are massive storm systems that form over warm ocean waters and move toward land. The Atlantic and Central Pacific hurricane season runs from June 1 to November 30, with peak activity occurring between mid-August and late October.\n The Eastern Pacific hurricane season begins May 15 and ends November 30.\nAll of this information can be found on the hazard's Information Sheet.",
+            "shelter": "Shelter in Place",
+            "thingstopack": "Pack emergency supplies",
+            "emergencynum": "+1 900-200-3201"
+        },
+        "type": "Hurricane"
+    },
+    {
+        "id":1002,
+        "imageName":"cloud.heavyrain",
+        "info": {
+            "safety": "Flooding is a temporary overflow of water onto land that is normally dry. It is the most common natural disaster in the United States. All of this information can be found on the hazard's [Information Sheet](https://fema-community-files.s3.amazonaws.com/hazard-information-sheets/Flood-English.pdf&auot)",
+            "shelter": "Move to Higher Ground",
+            "thingstopack": "Seven",
+            "emergencynum": "+1 900-200-3201"
+        },
+        "type": "Flood"
+    }
+]
